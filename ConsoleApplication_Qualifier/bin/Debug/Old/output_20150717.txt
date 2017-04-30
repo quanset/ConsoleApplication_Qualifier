@@ -1,0 +1,319 @@
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 760
+Down Payment      (input from client): 20%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $350.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $376,337.50  $1,900.00  $297,500.00    $301,070.00    3.75      -0.125    3.625     1.2            $3,570.00           0.8            $200.71        1.25           $313.61                  $1,373.03      $1,887.36      
+FHA 15-year Loan    15   $282,234.38  $1,900.00  $225,000.00    $225,787.50    3.25      -0.125    3.125     0.35           $787.50             0.45           $84.67         1.25           $235.20                  $1,572.85      $1,892.72      
+VA 30-year Loan     30   $417,656.25  $1,900.00  $330,000.00    $334,125.00    3.88      -0.125    3.755     1.25           $4,125.00           0              $0.00          1.25           $348.05                  $1,548.33      $1,896.38      
+VA 15-year Loan     15   $294,257.81  $1,900.00  $232,500.00    $235,406.25    3.25      -0.125    3.125     1.25           $2,906.25           0              $0.00          1.25           $245.21                  $1,639.86      $1,885.07      
+USDA 30-year Loan   30   $392,062.50  $1,900.00  $307,500.00    $313,650.00    3.88      -0.125    3.755     2              $6,150.00           0.4            $104.55        1.25           $326.72                  $1,453.45      $1,884.72      
+CONV 30-year Loan   30   $396,875.00  $1,900.00  $317,500.00    $317,500.00    4         0.25      4.25      0              $0.00               0              $0.00          1.25           $330.73                  $1,561.91      $1,892.64      
+CONV 15-year Loan   15   $293,750.00  $1,900.00  $235,000.00    $235,000.00    3.25      0         3.25      0              $0.00               0              $0.00          1.25           $244.79                  $1,651.27      $1,896.06      
+FHA 25-year Loan    10   $202,400.00  $1,900.00  $160,000.00    $161,920.00    3.75      -0.125    3.625     1.2            $1,920.00           0.8            $107.95        1.25           $168.67                  $1,610.66      $1,887.27      
+FHA 20-year Loan    10   $202,400.00  $1,900.00  $160,000.00    $161,920.00    3.75      -0.125    3.625     1.2            $1,920.00           0.8            $107.95        1.25           $168.67                  $1,610.66      $1,887.27      
+FHA 10-year Loan    10   $213,243.75  $1,900.00  $170,000.00    $170,595.00    3.25      -0.125    3.125     0.35           $595.00             0.45           $63.97         1.25           $177.70                  $1,657.14      $1,898.82      
+VA 25-year Loan     10   $211,992.19  $1,900.00  $167,500.00    $169,593.75    3.88      -0.125    3.755     1.25           $2,093.75           0              $0.00          1.25           $176.66                  $1,697.37      $1,874.03      
+VA 20-year Loan     10   $215,156.25  $1,900.00  $170,000.00    $172,125.00    3.75      -0.125    3.625     1.25           $2,125.00           0              $0.00          1.25           $179.30                  $1,712.17      $1,891.47      
+VA 10-year Loan     10   $218,320.31  $1,900.00  $172,500.00    $174,656.25    3.25      -0.125    3.125     1.25           $2,156.25           0              $0.00          1.25           $181.93                  $1,696.59      $1,878.52      
+CONV 25-year Loan   10   $209,375.00  $1,900.00  $167,500.00    $167,500.00    4         0.25      4.25      0              $0.00               0              $0.00          1.25           $174.48                  $1,715.83      $1,890.31      
+CONV 20-year Loan   10   $209,375.00  $1,900.00  $167,500.00    $167,500.00    3.88      0.25      4.13      0              $0.00               0              $0.00          1.25           $174.48                  $1,706.22      $1,880.70      
+CONV 10-year Loan   10   $218,750.00  $1,900.00  $175,000.00    $175,000.00    3.13      0         3.13      0              $0.00               0              $0.00          1.25           $182.29                  $1,700.33      $1,882.62      
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 690
+Down Payment      (input from client): 20%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $350.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $354,200.00  $1,800.00  $280,000.00    $283,360.00    3.75      0         3.75      1.2            $3,360.00           0.8            $188.91        1.25           $295.17                  $1,312.28      $1,796.35      
+FHA 15-year Loan    15   $263,418.75  $1,800.00  $210,000.00    $210,735.00    3.25      0         3.25      0.35           $735.00             0.45           $79.03         1.25           $219.52                  $1,480.77      $1,779.31      
+VA 30-year Loan     30   $389,179.69  $1,800.00  $307,500.00    $311,343.75    3.88      0         3.88      1.25           $3,843.75           0              $0.00          1.25           $324.32                  $1,464.94      $1,789.26      
+VA 15-year Loan     15   $278,437.50  $1,800.00  $220,000.00    $222,750.00    3.25      0         3.25      1.25           $2,750.00           0              $0.00          1.25           $232.03                  $1,565.19      $1,797.22      
+USDA 30-year Loan   30   $369,750.00  $1,800.00  $290,000.00    $295,800.00    3.88      0         3.88      2              $5,800.00           0.4            $98.60         1.25           $308.13                  $1,391.81      $1,798.54      
+CONV 30-year Loan   30   $371,875.00  $1,800.00  $297,500.00    $297,500.00    4         0.375     4.375     0              $0.00               0              $0.00          1.25           $309.90                  $1,485.37      $1,795.27      
+CONV 15-year Loan   15   $278,125.00  $1,800.00  $222,500.00    $222,500.00    3.25      0         3.25      0              $0.00               0              $0.00          1.25           $231.77                  $1,563.44      $1,795.21      
+FHA 25-year Loan    10   $189,750.00  $1,800.00  $150,000.00    $151,800.00    3.75      0         3.75      1.2            $1,800.00           0.8            $101.20        1.25           $158.13                  $1,518.93      $1,778.26      
+FHA 20-year Loan    10   $189,750.00  $1,800.00  $150,000.00    $151,800.00    3.75      0         3.75      1.2            $1,800.00           0.8            $101.20        1.25           $158.13                  $1,518.93      $1,778.26      
+FHA 10-year Loan    10   $200,700.00  $1,800.00  $160,000.00    $160,560.00    3.25      0         3.25      0.35           $560.00             0.45           $60.21         1.25           $167.25                  $1,568.98      $1,796.44      
+VA 25-year Loan     10   $202,500.00  $1,800.00  $160,000.00    $162,000.00    3.88      0         3.88      1.25           $2,000.00           0              $0.00          1.25           $168.75                  $1,630.95      $1,799.70      
+VA 20-year Loan     10   $202,500.00  $1,800.00  $160,000.00    $162,000.00    3.75      0         3.75      1.25           $2,000.00           0              $0.00          1.25           $168.75                  $1,620.99      $1,789.74      
+VA 10-year Loan     10   $205,664.06  $1,800.00  $162,500.00    $164,531.25    3.25      0         3.25      1.25           $2,031.25           0              $0.00          1.25           $171.39                  $1,607.78      $1,779.17      
+CONV 25-year Loan   10   $196,875.00  $1,800.00  $157,500.00    $157,500.00    4         0.5       4.5       0              $0.00               0              $0.00          1.25           $164.06                  $1,632.30      $1,796.36      
+CONV 20-year Loan   10   $196,875.00  $1,800.00  $157,500.00    $157,500.00    3.88      0.375     4.255     0              $0.00               0              $0.00          1.25           $164.06                  $1,613.77      $1,777.83      
+CONV 10-year Loan   10   $206,250.00  $1,800.00  $165,000.00    $165,000.00    3.13      0.125     3.255     0              $0.00               0              $0.00          1.25           $171.88                  $1,612.75      $1,784.63      
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 690
+Down Payment      (input from client): 20%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $1,900.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $117,012.50  $600.00    $92,500.00     $93,610.00     3.75      0         3.75      1.2            $1,110.00           0.8            $62.41         1.25           $97.51                   $433.52        $593.44        
+FHA 15-year Loan    15   $87,806.25   $600.00    $70,000.00     $70,245.00     3.25      0         3.25      0.35           $245.00             0.45           $26.34         1.25           $73.17                   $493.59        $593.10        
+VA 30-year Loan     30   $129,726.56  $600.00    $102,500.00    $103,781.25    3.88      0         3.88      1.25           $1,281.25           0              $0.00          1.25           $108.11                  $488.31        $596.42        
+VA 15-year Loan     15   $91,757.81   $600.00    $72,500.00     $73,406.25     3.25      0         3.25      1.25           $906.25             0              $0.00          1.25           $76.46                   $515.80        $592.26        
+USDA 30-year Loan   30   $121,125.00  $600.00    $95,000.00     $96,900.00     3.88      0         3.88      2              $1,900.00           0.4            $32.30         1.25           $100.94                  $455.94        $589.18        
+CONV 30-year Loan   30   $121,875.00  $600.00    $97,500.00     $97,500.00     4         0.375     4.375     0              $0.00               0              $0.00          1.25           $101.56                  $486.80        $588.36        
+CONV 15-year Loan   15   $90,625.00   $600.00    $72,500.00     $72,500.00     3.25      0         3.25      0              $0.00               0              $0.00          1.25           $75.52                   $509.43        $584.95        
+FHA 25-year Loan    10   $63,250.00   $600.00    $50,000.00     $50,600.00     3.75      0         3.75      1.2            $600.00             0.8            $33.73         1.25           $52.71                   $506.31        $592.75        
+FHA 20-year Loan    10   $63,250.00   $600.00    $50,000.00     $50,600.00     3.75      0         3.75      1.2            $600.00             0.8            $33.73         1.25           $52.71                   $506.31        $592.75        
+FHA 10-year Loan    10   $65,854.69   $600.00    $52,500.00     $52,683.75     3.25      0         3.25      0.35           $183.75             0.45           $19.76         1.25           $54.88                   $514.81        $589.45        
+VA 25-year Loan     10   $66,445.31   $600.00    $52,500.00     $53,156.25     3.88      0         3.88      1.25           $656.25             0              $0.00          1.25           $55.37                   $535.15        $590.52        
+VA 20-year Loan     10   $66,445.31   $600.00    $52,500.00     $53,156.25     3.75      0         3.75      1.25           $656.25             0              $0.00          1.25           $55.37                   $531.89        $587.26        
+VA 10-year Loan     10   $66,445.31   $600.00    $52,500.00     $53,156.25     3.25      0         3.25      1.25           $656.25             0              $0.00          1.25           $55.37                   $519.44        $574.81        
+CONV 25-year Loan   10   $65,625.00   $600.00    $52,500.00     $52,500.00     4         0.5       4.5       0              $0.00               0              $0.00          1.25           $54.69                   $544.10        $598.79        
+CONV 20-year Loan   10   $65,625.00   $600.00    $52,500.00     $52,500.00     3.88      0.375     4.255     0              $0.00               0              $0.00          1.25           $54.69                   $537.92        $592.61        
+CONV 10-year Loan   10   $68,750.00   $600.00    $55,000.00     $55,000.00     3.13      0.125     3.255     0              $0.00               0              $0.00          1.25           $57.29                   $537.58        $594.87        
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 680
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $289,658.51  $1,800.00  $277,500.00    $280,968.75    3.75      0         3.75      1.25           $3,468.75           0.85           $199.02        1.25           $292.68                  $1,301.21      $1,792.91      
+FHA 15-year Loan    15   $212,608.25  $1,800.00  $205,000.00    $206,230.00    3.25      0         3.25      0.6            $1,230.00           0.7            $120.30        1.25           $214.82                  $1,449.11      $1,784.23      
+VA 30-year Loan     30   $308,029.64  $1,720.00  $292,500.00    $298,788.75    3.88      0         3.88      2.15           $6,288.75           0              $0.00          1.25           $311.24                  $1,405.87      $1,717.11      
+VA 15-year Loan     15   $218,516.75  $1,720.00  $207,500.00    $211,961.25    3.25      0         3.25      2.15           $4,461.25           0              $0.00          1.25           $220.79                  $1,489.38      $1,710.17      
+USDA 30-year Loan   30   $289,175.26  $1,720.00  $275,000.00    $280,500.00    3.88      0         3.88      2              $5,500.00           0.4            $93.50         1.25           $292.19                  $1,319.82      $1,705.51      
+CONV 30-year Loan   30   $247,422.68  $1,720.00  $240,000.00    $240,000.00    4         0.375     4.375     0              $0.00               1.31           $262.00        1.25           $250.00                  $1,198.28      $1,710.28      
+CONV 15-year Loan   15   $190,721.65  $1,720.00  $185,000.00    $185,000.00    3.25      0.25      3.5       0              $0.00               1.23           $189.63        1.25           $192.71                  $1,322.53      $1,704.86      
+FHA 25-year Loan    10   $156,572.16  $1,800.00  $150,000.00    $151,875.00    3.75      0         3.75      1.25           $1,875.00           0.85           $107.58        1.25           $158.20                  $1,519.68      $1,785.46      
+FHA 20-year Loan    10   $156,572.16  $1,800.00  $150,000.00    $151,875.00    3.75      0         3.75      1.25           $1,875.00           0.85           $107.58        1.25           $158.20                  $1,519.68      $1,785.46      
+FHA 10-year Loan    10   $160,752.58  $1,800.00  $155,000.00    $155,930.00    3.25      0         3.25      0.6            $930.00             0.7            $90.96         1.25           $162.43                  $1,523.73      $1,777.12      
+VA 25-year Loan     10   $157,963.92  $1,720.00  $150,000.00    $153,225.00    3.88      0         3.88      2.15           $3,225.00           0              $0.00          1.25           $159.61                  $1,542.61      $1,702.22      
+VA 20-year Loan     10   $157,963.92  $1,720.00  $150,000.00    $153,225.00    3.75      0         3.75      2.15           $3,225.00           0              $0.00          1.25           $159.61                  $1,533.19      $1,692.80      
+VA 10-year Loan     10   $163,229.38  $1,720.00  $155,000.00    $158,332.50    3.25      0         3.25      2.15           $3,332.50           0              $0.00          1.25           $164.93                  $1,547.20      $1,712.13      
+CONV 25-year Loan   10   $141,752.58  $1,720.00  $137,500.00    $137,500.00    4         0.375     4.375     0              $0.00               1.31           $150.10        1.25           $143.23                  $1,416.76      $1,710.09      
+CONV 20-year Loan   10   $141,752.58  $1,720.00  $137,500.00    $137,500.00    3.88      0.375     4.255     0              $0.00               1.31           $150.10        1.25           $143.23                  $1,408.85      $1,702.18      
+CONV 10-year Loan   10   $146,907.22  $1,720.00  $142,500.00    $142,500.00    3.13      0.375     3.505     0              $0.00               1.23           $146.06        1.25           $148.44                  $1,409.46      $1,703.96      
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 680
+Down Payment      (input from client): 3.5%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $500.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $289,658.51  $1,800.00  $277,500.00    $280,968.75    3.75      0         3.75      1.25           $3,468.75           0.85           $199.02        1.25           $292.68                  $1,301.21      $1,792.91      
+FHA 15-year Loan    15   $212,608.25  $1,800.00  $205,000.00    $206,230.00    3.25      0         3.25      0.6            $1,230.00           0.7            $120.30        1.25           $214.82                  $1,449.11      $1,784.23      
+VA 30-year Loan     30   $313,295.10  $1,750.00  $297,500.00    $303,896.25    3.88      0         3.88      2.15           $6,396.25           0              $0.00          1.25           $316.56                  $1,429.90      $1,746.46      
+VA 15-year Loan     15   $221,149.48  $1,750.00  $210,000.00    $214,515.00    3.25      0         3.25      2.15           $4,515.00           0              $0.00          1.25           $223.45                  $1,507.33      $1,730.78      
+USDA 30-year Loan   30   $294,432.99  $1,750.00  $280,000.00    $285,600.00    3.88      0         3.88      2              $5,600.00           0.4            $95.20         1.25           $297.50                  $1,343.81      $1,736.51      
+CONV 30-year Loan   30   $252,577.32  $1,750.00  $245,000.00    $245,000.00    4         0.375     4.375     0              $0.00               1.31           $267.46        1.25           $255.21                  $1,223.25      $1,745.92      
+CONV 15-year Loan   15   $193,298.97  $1,750.00  $187,500.00    $187,500.00    3.25      0.25      3.5       0              $0.00               1.23           $192.19        1.25           $195.31                  $1,340.40      $1,727.90      
+FHA 25-year Loan    10   $156,572.16  $1,800.00  $150,000.00    $151,875.00    3.75      0         3.75      1.25           $1,875.00           0.85           $107.58        1.25           $158.20                  $1,519.68      $1,785.46      
+FHA 20-year Loan    10   $156,572.16  $1,800.00  $150,000.00    $151,875.00    3.75      0         3.75      1.25           $1,875.00           0.85           $107.58        1.25           $158.20                  $1,519.68      $1,785.46      
+FHA 10-year Loan    10   $160,752.58  $1,800.00  $155,000.00    $155,930.00    3.25      0         3.25      0.6            $930.00             0.7            $90.96         1.25           $162.43                  $1,523.73      $1,777.12      
+VA 25-year Loan     10   $160,596.65  $1,750.00  $152,500.00    $155,778.75    3.88      0         3.88      2.15           $3,278.75           0              $0.00          1.25           $162.27                  $1,568.31      $1,730.58      
+VA 20-year Loan     10   $163,229.38  $1,750.00  $155,000.00    $158,332.50    3.75      0         3.75      2.15           $3,332.50           0              $0.00          1.25           $164.93                  $1,584.29      $1,749.22      
+VA 10-year Loan     10   $165,862.11  $1,750.00  $157,500.00    $160,886.25    3.25      0         3.25      2.15           $3,386.25           0              $0.00          1.25           $167.59                  $1,572.16      $1,739.75      
+CONV 25-year Loan   10   $144,329.90  $1,750.00  $140,000.00    $140,000.00    4         0.375     4.375     0              $0.00               1.31           $152.83        1.25           $145.83                  $1,442.52      $1,741.19      
+CONV 20-year Loan   10   $144,329.90  $1,750.00  $140,000.00    $140,000.00    3.88      0.375     4.255     0              $0.00               1.31           $152.83        1.25           $145.83                  $1,434.46      $1,733.13      
+CONV 10-year Loan   10   $149,484.54  $1,750.00  $145,000.00    $145,000.00    3.13      0.375     3.505     0              $0.00               1.23           $148.63        1.25           $151.04                  $1,434.18      $1,733.85      
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 690
+Down Payment      (input from client): 4.5%
+Income (monthly)  (input from client): $5,200.00
+Debt (monthly)    (input from client): $510.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $300,096.65  $1,872.00  $287,500.00    $291,093.75    3.75      0         3.75      1.25           $3,593.75           0.85           $206.19        1.25           $303.22                  $1,348.10      $1,857.51      
+FHA 15-year Loan    15   $222,979.38  $1,872.00  $215,000.00    $216,290.00    3.25      0         3.25      0.6            $1,290.00           0.7            $126.17        1.25           $225.30                  $1,519.80      $1,871.27      
+VA 30-year Loan     30   $326,458.76  $1,830.00  $310,000.00    $316,665.00    3.88      0         3.88      2.15           $6,665.00           0              $0.00          1.25           $329.86                  $1,489.98      $1,819.84      
+VA 15-year Loan     15   $231,680.41  $1,830.00  $220,000.00    $224,730.00    3.25      0         3.25      2.15           $4,730.00           0              $0.00          1.25           $234.09                  $1,579.11      $1,813.20      
+USDA 30-year Loan   30   $310,206.19  $1,830.00  $295,000.00    $300,900.00    3.88      0         3.88      2              $5,900.00           0.4            $100.30        1.25           $313.44                  $1,415.80      $1,829.54      
+CONV 30-year Loan   30   $262,886.60  $1,830.00  $255,000.00    $255,000.00    4         0.375     4.375     0              $0.00               1.31           $278.38        1.25           $265.63                  $1,273.18      $1,817.18      
+CONV 15-year Loan   15   $203,608.25  $1,830.00  $197,500.00    $197,500.00    3.25      0.25      3.5       0              $0.00               1.23           $202.44        1.25           $205.73                  $1,411.89      $1,820.06      
+FHA 25-year Loan    10   $161,791.24  $1,872.00  $155,000.00    $156,937.50    3.75      0         3.75      1.25           $1,937.50           0.85           $111.16        1.25           $163.48                  $1,570.33      $1,844.97      
+FHA 20-year Loan    10   $161,791.24  $1,872.00  $155,000.00    $156,937.50    3.75      0         3.75      1.25           $1,937.50           0.85           $111.16        1.25           $163.48                  $1,570.33      $1,844.97      
+FHA 10-year Loan    10   $168,530.93  $1,872.00  $162,500.00    $163,475.00    3.25      0         3.25      0.6            $975.00             0.7            $95.36         1.25           $170.29                  $1,597.46      $1,863.11      
+VA 25-year Loan     10   $168,494.85  $1,830.00  $160,000.00    $163,440.00    3.88      0         3.88      2.15           $3,440.00           0              $0.00          1.25           $170.25                  $1,645.45      $1,815.70      
+VA 20-year Loan     10   $168,494.85  $1,830.00  $160,000.00    $163,440.00    3.75      0         3.75      2.15           $3,440.00           0              $0.00          1.25           $170.25                  $1,635.40      $1,805.65      
+VA 10-year Loan     10   $173,760.31  $1,830.00  $165,000.00    $168,547.50    3.25      0         3.25      2.15           $3,547.50           0              $0.00          1.25           $175.57                  $1,647.02      $1,822.59      
+CONV 25-year Loan   10   $149,484.54  $1,830.00  $145,000.00    $145,000.00    4         0.375     4.375     0              $0.00               1.31           $158.29        1.25           $151.04                  $1,494.04      $1,803.37      
+CONV 20-year Loan   10   $152,061.86  $1,830.00  $147,500.00    $147,500.00    3.88      0.375     4.255     0              $0.00               1.31           $161.02        1.25           $153.65                  $1,511.31      $1,825.98      
+CONV 10-year Loan   10   $157,216.49  $1,830.00  $152,500.00    $152,500.00    3.13      0.375     3.505     0              $0.00               1.23           $156.31        1.25           $158.85                  $1,508.37      $1,823.54      
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Credit Score too low for this loan - Credit Score: 500
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (USDA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 25-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 20-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 10-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 25-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 20-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 10-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 25-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 20-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 10-year Loan) - Interest rate offset not found.
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 500
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $0.00        ($49,995,530.00)$0.00          $0.00          3.75      -9999     -9995.25  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 15-year Loan    15   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 30-year Loan     30   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 15-year Loan     15   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+USDA 30-year Loan   30   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00        ($49,995,530.00)$0.00          $0.00          4         -9999     -9995     0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 25-year Loan    10   $0.00        ($49,995,530.00)$0.00          $0.00          3.75      -9999     -9995.25  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 20-year Loan    10   $0.00        ($49,995,530.00)$0.00          $0.00          3.75      -9999     -9995.25  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 10-year Loan    10   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 25-year Loan     10   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 20-year Loan     10   $0.00        ($49,995,530.00)$0.00          $0.00          3.75      -9999     -9995.25  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 10-year Loan     10   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 25-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          4         -9999     -9995     0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 20-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 10-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          3.13      -9999     -9995.87  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (USDA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 25-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 20-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 10-year Loan) - Interest rate offset not found.
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 600
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $229,639.18  $1,550.00  $220,000.00    $222,750.00    3.75      0.875     4.625     1.25           $2,750.00           0.85           $157.78        1.25           $232.03                  $1,145.25      $1,535.06      
+FHA 15-year Loan    15   $184,087.63  $1,550.00  $177,500.00    $178,565.00    3.25      0.0125    3.2625    0.6            $1,065.00           0.7            $104.16        1.25           $186.01                  $1,255.81      $1,545.98      
+VA 30-year Loan     30   $265,905.93  $1,620.00  $252,500.00    $257,928.75    3.88      0.875     4.755     2.15           $5,428.75           0              $0.00          1.25           $268.68                  $1,346.25      $1,614.93      
+VA 15-year Loan     15   $194,822.16  $1,620.00  $185,000.00    $188,977.50    3.25      0.875     4.125     2.15           $3,977.50           0              $0.00          1.25           $196.85                  $1,409.71      $1,606.56      
+USDA 30-year Loan   30   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00        ($49,995,530.00)$0.00          $0.00          4         -9999     -9995     0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00        ($49,995,530.00)$0.00          $0.00          3.25      -9999     -9995.75  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 25-year Loan    10   $130,476.80  $1,550.00  $125,000.00    $126,562.50    3.75      0.875     4.625     1.25           $1,562.50           0.85           $89.65         1.25           $131.84                  $1,319.31      $1,540.79      
+FHA 20-year Loan    10   $133,086.34  $1,550.00  $127,500.00    $129,093.75    3.75      0.5       4.25      1.25           $1,593.75           0.85           $91.44         1.25           $134.47                  $1,322.40      $1,548.31      
+FHA 10-year Loan    10   $132,231.96  $1,550.00  $127,500.00    $128,265.00    3.25      1.25      4.5       0.6            $765.00             0.7            $74.82         1.25           $133.61                  $1,329.32      $1,537.75      
+VA 25-year Loan     10   $144,800.26  $1,620.00  $137,500.00    $140,456.25    3.88      0.875     4.755     2.15           $2,956.25           0              $0.00          1.25           $146.31                  $1,472.99      $1,619.30      
+VA 20-year Loan     10   $144,800.26  $1,620.00  $137,500.00    $140,456.25    3.75      0.875     4.625     2.15           $2,956.25           0              $0.00          1.25           $146.31                  $1,464.14      $1,610.45      
+VA 10-year Loan     10   $147,432.99  $1,620.00  $140,000.00    $143,010.00    3.25      0.875     4.125     2.15           $3,010.00           0              $0.00          1.25           $148.97                  $1,456.42      $1,605.39      
+CONV 25-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          4         -9999     -9995     0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 20-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          3.88      -9999     -9995.12  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 10-year Loan   10   $0.00        ($49,995,530.00)$0.00          $0.00          3.13      -9999     -9995.87  0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+</RunQualifier> *****************************************************************************************
+
+<RunQualifier> *****************************************************************************************
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 650
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $274,001.29  $1,720.00  $262,500.00    $265,781.25    3.75      0.125     3.875     1.25           $3,281.25           0.85           $188.26        1.25           $276.86                  $1,249.80      $1,714.92      
+FHA 15-year Loan    15   $199,644.33  $1,720.00  $192,500.00    $193,655.00    3.25      0.375     3.625     0.6            $1,155.00           0.7            $112.97        1.25           $201.72                  $1,396.32      $1,711.01      
+VA 30-year Loan     30   $302,764.18  $1,720.00  $287,500.00    $293,681.25    3.88      0.125     4.005     2.15           $6,181.25           0              $0.00          1.25           $305.92                  $1,402.92      $1,708.84      
+VA 15-year Loan     15   $215,884.02  $1,720.00  $205,000.00    $209,407.50    3.25      0.25      3.5       2.15           $4,407.50           0              $0.00          1.25           $218.13                  $1,497.01      $1,715.14      
+USDA 30-year Loan   30   $286,546.39  $1,720.00  $272,500.00    $277,950.00    3.88      0.125     4.005     2              $5,450.00           0.4            $92.65         1.25           $289.53                  $1,327.78      $1,709.96      
+CONV 30-year Loan   30   $237,113.40  $1,720.00  $230,000.00    $230,000.00    4         0.625     4.625     0              $0.00               1.48           $283.67        1.25           $239.58                  $1,182.52      $1,705.77      
+CONV 15-year Loan   15   $188,144.33  $1,720.00  $182,500.00    $182,500.00    3.25      0.375     3.625     0              $0.00               1.37           $208.35        1.25           $190.10                  $1,315.89      $1,714.35      
+FHA 25-year Loan    10   $148,743.56  $1,720.00  $142,500.00    $144,281.25    3.75      0.125     3.875     1.25           $1,781.25           0.85           $102.20        1.25           $150.29                  $1,452.22      $1,704.71      
+FHA 20-year Loan    10   $148,743.56  $1,720.00  $142,500.00    $144,281.25    3.75      0.125     3.875     1.25           $1,781.25           0.85           $102.20        1.25           $150.29                  $1,452.22      $1,704.71      
+FHA 10-year Loan    10   $152,974.23  $1,720.00  $147,500.00    $148,385.00    3.25      0.375     3.625     0.6            $885.00             0.7            $86.56         1.25           $154.57                  $1,476.02      $1,717.15      
+VA 25-year Loan     10   $157,963.92  $1,720.00  $150,000.00    $153,225.00    3.88      0.125     4.005     2.15           $3,225.00           0              $0.00          1.25           $159.61                  $1,551.69      $1,711.30      
+VA 20-year Loan     10   $157,963.92  $1,720.00  $150,000.00    $153,225.00    3.75      0.125     3.875     2.15           $3,225.00           0              $0.00          1.25           $159.61                  $1,542.24      $1,701.85      
+VA 10-year Loan     10   $160,596.65  $1,720.00  $152,500.00    $155,778.75    3.25      0.25      3.5       2.15           $3,278.75           0              $0.00          1.25           $162.27                  $1,540.42      $1,702.69      
+CONV 25-year Loan   10   $139,175.26  $1,720.00  $135,000.00    $135,000.00    4         0.625     4.625     0              $0.00               1.48           $166.50        1.25           $140.63                  $1,407.27      $1,714.40      
+CONV 20-year Loan   10   $139,175.26  $1,720.00  $135,000.00    $135,000.00    3.88      0.625     4.505     0              $0.00               1.48           $166.50        1.25           $140.63                  $1,399.44      $1,706.57      
+CONV 10-year Loan   10   $144,329.90  $1,720.00  $140,000.00    $140,000.00    3.13      0.375     3.505     0              $0.00               1.37           $159.83        1.25           $145.83                  $1,384.73      $1,690.40      
+</RunQualifier> *****************************************************************************************
+
+ 

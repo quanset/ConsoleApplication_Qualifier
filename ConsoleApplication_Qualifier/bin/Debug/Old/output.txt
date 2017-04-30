@@ -1,0 +1,157 @@
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 680
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $500.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): ($305.00)
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $0.00          $0.00          3.63      0         3.63      1.25           $0.00               0.85           $0.00          1.25           $0.00                    $0.00          $0.00          
+FHA 15-year Loan    15   $0.00          $0.00          3.25      0         3.25      0.6            $0.00               0.7            $0.00          1.25           $0.00                    $0.00          $0.00          
+VA 30-year Loan     30   $0.00          $0.00          3.75      0         3.75      2.15           $0.00               0              $0.00          1.25           $0.00                    $0.00          $0.00          
+VA 15-year Loan     15   $0.00          $0.00          3.25      0         3.25      2.15           $0.00               0              $0.00          1.25           $0.00                    $0.00          $0.00          
+USDA 30-year Loan   30   $0.00          $0.00          3.63      0         3.63      0.0204         $0.00               0.4            $0.00          1.25           $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00          $0.00          4.13      0.25      4.38      0              $0.00               1.31           $0.00          1.25           $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00          $0.00          3.25      0.375     3.625     0              $0.00               1.23           $0.00          1.25           $0.00                    $0.00          $0.00          
+*****************************************************************************************
+
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 680
+Down Payment      (input from client): 3.5%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $500.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): $1,750.00
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $275,000.00    $278,437.50    3.63      0         3.63      1.25           $3,437.50           0.85           $197.23        1.25           $290.04                  $1,254.92      $1,742.19      
+FHA 15-year Loan    15   $200,000.00    $201,200.00    3.25      0         3.25      0.6            $1,200.00           0.7            $117.37        1.25           $209.58                  $1,405.34      $1,732.29      
+VA 30-year Loan     30   $305,000.00    $311,557.50    3.75      0         3.75      2.15           $6,557.50           0              $0.00          1.25           $324.54                  $1,412.50      $1,737.04      
+VA 15-year Loan     15   $215,000.00    $219,622.50    3.25      0         3.25      2.15           $4,622.50           0              $0.00          1.25           $228.77                  $1,510.74      $1,739.51      
+USDA 30-year Loan   30   $292,500.00    $292,559.67    3.63      0         3.63      0.0204         $59.67              0.4            $97.52         1.25           $304.75                  $1,334.77      $1,737.04      
+CONV 30-year Loan   30   $245,000.00    $245,000.00    4.13      0.25      4.38      0              $0.00               1.31           $267.46        1.25           $255.21                  $1,223.97      $1,746.64      
+CONV 15-year Loan   15   $187,500.00    $187,500.00    3.25      0.375     3.625     0              $0.00               1.23           $192.19        1.25           $195.31                  $1,351.94      $1,739.44      
+*****************************************************************************************
+
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 690
+Down Payment      (input from client): 4.5%
+Income (monthly)  (input from client): $5,200.00
+Debt (monthly)    (input from client): $510.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): $1,819.00
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $285,000.00    $288,562.50    3.63      0         3.63      1.25           $3,562.50           0.85           $204.40        1.25           $300.59                  $1,300.55      $1,805.53      
+FHA 15-year Loan    15   $210,000.00    $211,260.00    3.25      0         3.25      0.6            $1,260.00           0.7            $123.24        1.25           $220.06                  $1,475.60      $1,818.90      
+VA 30-year Loan     30   $317,500.00    $324,326.25    3.75      0         3.75      2.15           $6,826.25           0              $0.00          1.25           $337.84                  $1,470.39      $1,808.23      
+VA 15-year Loan     15   $222,500.00    $227,283.75    3.25      0         3.25      2.15           $4,783.75           0              $0.00          1.25           $236.75                  $1,563.44      $1,800.19      
+USDA 30-year Loan   30   $305,000.00    $305,062.22    3.63      0         3.63      0.0204         $62.22              0.4            $101.69        1.25           $317.77                  $1,391.81      $1,811.27      
+CONV 30-year Loan   30   $255,000.00    $255,000.00    4.13      0.25      4.38      0              $0.00               1.31           $278.38        1.25           $265.63                  $1,273.93      $1,817.93      
+CONV 15-year Loan   15   $195,000.00    $195,000.00    3.25      0.375     3.625     0              $0.00               1.23           $199.88        1.25           $203.13                  $1,406.02      $1,809.02      
+*****************************************************************************************
+
+Credit Score too low for this loan - Credit Score: 500
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (USDA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 15-year Loan) - Interest rate offset not found.
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 500
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $500.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): ($305.00)
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $0.00          $0.00          3.63      -1        2.63      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 15-year Loan    15   $0.00          $0.00          3.25      -1        2.25      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 30-year Loan     30   $0.00          $0.00          3.75      -1        2.75      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 15-year Loan     15   $0.00          $0.00          3.25      -1        2.25      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+USDA 30-year Loan   30   $0.00          $0.00          3.63      -1        2.63      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00          $0.00          4.13      -1        3.13      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00          $0.00          3.25      -1        2.25      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+*****************************************************************************************
+
+Credit Score too low for this loan - Credit Score: 600
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 30-year Loan) - Upfront Mortgage Insurance rate not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (FHA 15-year Loan) - Upfront Mortgage Insurance rate not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (VA 15-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (USDA 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 30-year Loan) - Interest rate offset not found.
+Credit Score too low for this loan
+System.IndexOutOfRangeException
+Credit Score too low for this loan (CONV 15-year Loan) - Interest rate offset not found.
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 600
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $500.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): ($305.00)
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $0.00          $0.00          3.63      0.5       4.13      -1             $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+FHA 15-year Loan    15   $0.00          $0.00          3.25      0.5       3.75      -1             $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 30-year Loan     30   $0.00          $0.00          3.75      -1        2.75      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+VA 15-year Loan     15   $0.00          $0.00          3.25      -1        2.25      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+USDA 30-year Loan   30   $0.00          $0.00          3.63      -1        2.63      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00          $0.00          4.13      -1        3.13      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00          $0.00          3.25      -1        2.25      0              $0.00               0              $0.00          0              $0.00                    $0.00          $0.00          
+*****************************************************************************************
+
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 650
+Down Payment      (input from client): 3.4%
+Income (monthly)  (input from client): $500.00
+Debt (monthly)    (input from client): $530.00
+HOA Fees          (input from client): $0.00
+Maximum Payment allowed (Calculated by this program): ($305.00)
+
+Type                Term MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $0.00          $0.00          3.63      0.125     3.755     1.25           $0.00               0.85           $0.00          1.25           $0.00                    $0.00          $0.00          
+FHA 15-year Loan    15   $0.00          $0.00          3.25      0.125     3.375     0.6            $0.00               0.7            $0.00          1.25           $0.00                    $0.00          $0.00          
+VA 30-year Loan     30   $0.00          $0.00          3.75      0.125     3.875     2.15           $0.00               0              $0.00          1.25           $0.00                    $0.00          $0.00          
+VA 15-year Loan     15   $0.00          $0.00          3.25      0.125     3.375     2.15           $0.00               0              $0.00          1.25           $0.00                    $0.00          $0.00          
+USDA 30-year Loan   30   $0.00          $0.00          3.63      0.125     3.755     0.0204         $0.00               0.4            $0.00          1.25           $0.00                    $0.00          $0.00          
+CONV 30-year Loan   30   $0.00          $0.00          4.13      0.625     4.755     0              $0.00               1.48           $0.00          1.25           $0.00                    $0.00          $0.00          
+CONV 15-year Loan   15   $0.00          $0.00          3.25      0.75      4         0              $0.00               1.37           $0.00          1.25           $0.00                    $0.00          $0.00          
+*****************************************************************************************
+
+ 

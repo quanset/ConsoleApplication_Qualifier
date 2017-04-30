@@ -1,0 +1,10 @@
+Common info from initial setups: -----------------------------------
+Credit Score      (input from client): 760
+Down Payment      (input from client): 20%
+Income (monthly)  (input from client): $5,000.00
+Debt (monthly)    (input from client): $350.00
+HOA Fees          (input from client): $0.00
+
+Type                Term MaxHouseCost MaxPayment MaxBase        MaxLoanTotal   IntBase   IntOffset IntTotal  UpfrontMIBase  UpfrontMIAmount     MonthlyMIRate  MonthlyMIPmt   MonthlyPTRate  MonthlyPTPayment         MonthlyP&I     TotalPayment   
+
+FHA 30-year Loan    30   $388,987.50  $1,900.00  $307,500.00    $311,190.00    3.75      -0.125    3.625     1.2            $3,690.00           0.8            $195.65        1              $259.33                  $      $1778.64

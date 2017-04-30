@@ -1,0 +1,52 @@
+Todo:
+1) New input param: HOA fees
+just pass it through to the new output param: HOA fees
+-------DONE (part of LoanCommonInfo class)
+
+2) Output the credit score that I took in
+-------DONE (part of LoanCommonInfo class)
+
+3) Output the Down payment that I took in
+-------DONE (part of LoanCommonInfo class)
+
+4) Update increment to be $2500
+-------DONE
+
+5) Is the P&I calculated based on the loan amount requested by Todd, or is it based on the qualified loan amount?
+Maximum qualified loan amount
+***P&I must be based on the total loan amount (base + upfront mortgage insurance)
+Intrate: 3.625
+Monthly: 3.625/12
+Term: 360 months
+Balance: 650000
+
+Payment is: 2964.33
+
+
+Intrate: 3.625
+Monthly: 3.625/12
+Term: 360 months
+Balance: 657800
+Payment: 2999.91
+
+
+From the website:
+Interest rate: 3.75
+Max qualified loan amount: 765000
+Estimated Qualifying interest rate: 3.75
+Upfront MI 9562.50
+Total loan amount: 774562.50
+
+Payment: 3542.83  (This is incorrect because it is based on the qualified loan amount and it should be based on the total loan amount)
+
+
+6) Cap the maximum qualified loan amount at 417,000.00?
+This is the cap for a conforming loan.
+Higher than that is a jumbo loan.
+
+7) Add 10 year
+	- Stub-in complete.  Waiting on data from Al.
+8) Add 20 year
+	- Stub-in complete.  Waiting on data from Al.
+
+

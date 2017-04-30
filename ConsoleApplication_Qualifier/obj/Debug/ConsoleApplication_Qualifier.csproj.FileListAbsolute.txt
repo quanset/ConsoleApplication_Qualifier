@@ -1,0 +1,12 @@
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.exe.config
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.exe
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.pdb
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.csprojResolveAssemblyReference.cache
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.exe
+c:\users\kfultz\documents\visual studio 2013\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.pdb
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.exe.config
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.exe
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\bin\Debug\ConsoleApplication_Qualifier.pdb
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.csprojResolveAssemblyReference.cache
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.exe
+C:\Users\8570w\Documents\Visual Studio 2015\Projects\ConsoleApplication_Qualifier\ConsoleApplication_Qualifier\obj\Debug\ConsoleApplication_Qualifier.pdb
