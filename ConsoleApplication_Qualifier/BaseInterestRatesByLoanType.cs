@@ -26,7 +26,7 @@ public class BaseInterestRatesByLoanType
     public const int CONV15_index = 14;
     public const int CONV10_index = 15;
 
-    // This data changes often, so it was just easier to set it up as an array to make updates easy.
+    // This data changes often, so it was just easier to set it up as an array to make updates easy. 
     private static double[] InterestRatesByLoanType = new double[16] { 3.38, 3.38, 3.38, 2.88, 2.88, 3.50, 3.50, 3.38, 3.00, 3.00, 4.00, 4.00, 4.00, 3.75, 3.25, 3.25 };
 
 
