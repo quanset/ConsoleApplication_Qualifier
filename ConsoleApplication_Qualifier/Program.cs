@@ -30,12 +30,14 @@ public class Program
         LoanCommonInfo loanCommonInfo = null;
 
         // Some defaults for testing purposes:
-        decimal downPaymentPercentage;
-        int monthlyIncome;
-        int monthlyDebt;
-        int creditScore;
+        decimal downPaymentPercentage = -1;
+        int monthlyIncome = -1;
+        int monthlyDebt = -1;
+        int creditScore = -1;
+        int specificPrice = -1;   // Phase 2: Used only if the user wants to calculate based on a specific loan amount.
+        int downPayment = -1; // Phase 2: Used only if the user wants to calculate based on a specific loan amount.
 
-        int hoaFees;  // Client requested that I allow this to be passed in and just pass it through to an output param. Value NOT USED in the actual Qualifier program.
+        int hoaFees = 0;  // Al requested that I allow this to be passed in and just pass it through to an output param. Value NOT USED in the actual Qualifier program.
 
         if (args.Length > 0)
         {
@@ -49,28 +51,35 @@ public class Program
                     {
                         string[] parameters = line.Split(',');
 
-                        if (parameters[0].CompareTo("DownPaymentPercentage") == 0)
+                        string formatType = parameters[0];
+                        switch (formatType)
                         {
-                            // Skip the first parameter row since it is just header text to indicate the format for the rest of the entries.
-                            // Nothing to see here... keep iterating...
-                        }
-                        else
-                        {
-                            downPaymentPercentage = decimal.Parse(parameters[0]);
-                            monthlyIncome = int.Parse(parameters[1]);
-                            monthlyDebt = int.Parse(parameters[2]);
-                            creditScore = int.Parse(parameters[3]);
-                            hoaFees = int.Parse(parameters[4]);
+                            case "TYPE":
+                                // "header" row - ignore this row
+                                break;
 
-                            loanCommonInfo = RunQualifier(downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees);
+                            case "ORIGINAL":
+                                // phase 1 version
+                                parseInputParams_OriginalType(parameters, out downPaymentPercentage, out monthlyIncome, out monthlyDebt, out creditScore, out hoaFees);
+                                loanCommonInfo = RunQualifier(downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees);
+                                Qualifier.DisplayLoanInformation_FlatFormat(loanCommonInfo);
+                                Console.WriteLine("</RunQualifier> *****************************************************************************************\n");
+                                break;
 
-                            Qualifier.DisplayLoanInformation_FlatFormat(loanCommonInfo);
-                            Console.WriteLine("</RunQualifier> *****************************************************************************************\n");
+                            case "SPECIFIC_PRICE":
+                                // phase 2 version
+                                parseInputParams_SpecificPriceType(parameters, out specificPrice, out downPayment, out monthlyIncome, out monthlyDebt, out creditScore, out hoaFees);
+                                downPaymentPercentage = calculateDownPaymentPercentage(specificPrice, downPayment);
+                                loanCommonInfo = RunQualifier(downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees);
+                                Qualifier.DisplayLoanInformation_FlatFormat(loanCommonInfo);
+                                Console.WriteLine("</RunQualifier> *****************************************************************************************\n");
+                                break;
+
+                            default:
+                                break;
                         }
                     }
-
                 }
-                Console.ReadKey();  // Just to pause the console window for reading.
             } 
             else 
             {
@@ -92,7 +101,6 @@ public class Program
                 loanCommonInfo = RunQualifier(downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees);
                 Qualifier.DisplayLoanInformation(loanCommonInfo);
                 Console.WriteLine("*****************************************************************************************\n");
-                Console.ReadKey();  // Just to pause the console window for reading.
             }
 
         }
@@ -109,10 +117,52 @@ public class Program
             loanCommonInfo = RunQualifier(downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees);
             Qualifier.DisplayLoanInformation(loanCommonInfo);
             Console.WriteLine("*****************************************************************************************\n");
-            Console.ReadKey();  // Just to pause the console window for reading.
         }
-        //TestLoanCalculator();
+        Console.ReadKey();  // Just to pause the console window for reading.
+
     }
+
+    private static void parseInputParams_OriginalType(string[] parameters, 
+        out decimal downPaymentPercentage, 
+        out int monthlyIncome, 
+        out int monthlyDebt, 
+        out int creditScore, 
+        out int hoaFees)
+    {
+        downPaymentPercentage = decimal.Parse(parameters[1]);
+        monthlyIncome = int.Parse(parameters[2]);
+        monthlyDebt = int.Parse(parameters[3]);
+        creditScore = int.Parse(parameters[4]);
+        hoaFees = int.Parse(parameters[5]);
+    }
+
+    private static void parseInputParams_SpecificPriceType(string[] parameters,
+        out int specificPrice,
+        out int downPayment, 
+        out int monthlyIncome, 
+        out int monthlyDebt, 
+        out int creditScore, 
+        out int hoaFees)
+    {
+        specificPrice = int.Parse(parameters[1]);
+        downPayment = int.Parse(parameters[2]);
+        monthlyIncome = int.Parse(parameters[3]);
+        monthlyDebt = int.Parse(parameters[4]);
+        creditScore = int.Parse(parameters[5]);
+        hoaFees = int.Parse(parameters[6]);
+    }
+
+    private static decimal calculateDownPaymentPercentage(int specificPrice, int downPayment)
+    {
+        int loanAmount = 0;
+        decimal downPaymentPercentage = 0.0M;
+
+        loanAmount = specificPrice - downPayment;
+        downPaymentPercentage = 1M - (decimal)loanAmount / (decimal)specificPrice;
+        downPaymentPercentage = downPaymentPercentage * 100M;
+        return downPaymentPercentage;
+    }
+
 
     /// <summary>
     /// This is a good entry point for a client.
@@ -336,6 +386,40 @@ public class Program
         catch (IndexOutOfRangeException ex)
         {
             Console.WriteLine("Credit Score too low for this loan");
+            Console.WriteLine(ex.GetType().FullName);
+            Console.WriteLine(ex.Message);
+        }
+
+        return loanCommonInfo;
+
+    }
+
+    /// <summary>
+    /// This is a good entry point for a client.
+    /// Wrapper around entry APIs.
+    /// Required (from client): Down Payment (as a decimal percentage), Monthly Income, Monthly Debt, Credit Score).
+    /// 
+    /// NOTE: This is the 2nd phase requested by Al.  After the original qualifier is called, he wants to then specify a loan amount (MaxLoanTotal) and see what loans he qualifies for.
+    /// </summary>
+    public static LoanCommonInfo RunQualifier_specificPrice(decimal downPaymentPercentage, int monthlyIncome, int monthlyDebt, int creditScore, int hoaFees)
+    {
+
+        Qualifier qualifier = new Qualifier();
+        LoanCommonInfo loanCommonInfo = new LoanCommonInfo();
+
+        Qualifier.setupBorrowerInitialData(loanCommonInfo, downPaymentPercentage, monthlyIncome, monthlyDebt, creditScore, hoaFees, 9999);
+
+        Console.WriteLine("<RunQualifier> *****************************************************************************************");
+
+        try
+        {
+            // FHA 30-Year
+            LoanProviderInfo.setupLoanInfo(loanCommonInfo.LoanInfo_FHA30, loanCommonInfo.CreditScore, loanCommonInfo.DownPaymentPercentage, InterestRateOffsetsByLoanType.InterestRateOffsetByCreditScoreAndDownPayment_FHA30, MortgageInterestRatesByLoanType.UpfrontMortgageInterestRates_FHA30, MortgageInterestRatesByLoanType.MonthlyMortgageInterestRates_FHA30);
+            LoanProviderInfo.FindBestLoanAmount(loanCommonInfo.LoanInfo_FHA30, loanCommonInfo.LoanInfo_FHA30.Payment_Maximum, loanCommonInfo.DownPaymentPercentage);
+        }
+        catch (IndexOutOfRangeException ex)
+        {
+            Console.WriteLine("Credit Score too low for this loan - Credit Score: " + loanCommonInfo.CreditScore);
             Console.WriteLine(ex.GetType().FullName);
             Console.WriteLine(ex.Message);
         }
